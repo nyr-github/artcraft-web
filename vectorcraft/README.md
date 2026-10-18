@@ -194,8 +194,10 @@ drag-and-drop, set **Preferences › Performance › Linux Display Server** to *
 the app with `WAYLAND_DISPLAY= vectorcraft`: the window then opens through XWayland, where drops work
 (see [`docs/development.md`](docs/development.md#linux-wayland-and-x11)).
 
-On Linux under KDE Plasma 6.3 or later with Wayland, a drawing tablet's pen moves the cursor but VectorCraft doesn't
-respond to it yet (#491). Open the window through XWayland instead, with the same preference or `WAYLAND_DISPLAY= vectorcraft` (see
+On Linux with Wayland, under KDE Plasma 6.3 or later and under GNOME, VectorCraft doesn't respond to a drawing tablet's
+pen yet (#491, #2028). Open the window through XWayland instead, where the pen works as a mouse: set the same
+preference to **X11 (XWayland)**, or to **X11 (XWayland) When a Pen Is Attached** to use XWayland only when a pen is
+attached as VectorCraft starts, and restart; or start the app with `WAYLAND_DISPLAY= vectorcraft` (see
 [`docs/development.md`](docs/development.md#linux-wayland-and-x11)).
 
 ### Use it from Claude Code and other agents
@@ -245,7 +247,7 @@ The scores are self-assessed from our code against Illustrator's public document
 - reliable exchange of Illustrator's own `.ai` files (layer structure in real files; Illustrator's editing data isn't written);
 - an interaction-fidelity pass covering every tool's modifiers and small behaviours;
 - 3D and Materials beyond the initial live Revolve (Extrude & Bevel, Inflate, Rotate, materials);
-- about half of the Photoshop-style raster effects (27 of 57 still missing; Film Grain is available under Artistic, Halftone Pattern under Sketch) and the Effect Gallery;
+- about half of the Photoshop-style raster effects (24 of 57 still missing; Cutout, Film Grain, Neon Glow and Poster Edges are available under Artistic, Halftone Pattern under Sketch) and the Effect Gallery;
 - CJK composition for vertical type (vertical type itself has initial support, with a Japanese interface);
 - scripting, and the rest of Variables (image and graph kinds, dataset import);
 - generative AI features.
