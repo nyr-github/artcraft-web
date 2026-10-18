@@ -8,6 +8,7 @@
     { "id": "pdfcraft", "title": "PdfCraft" },
     { "id": "effectcraft", "title": "EffectCraft" },
     { "id": "designcraft", "title": "DesignCraft" },
+    { "id": "figcraft", "title": "FigCraft" },
     { "id": "wordcraft", "title": "WordCraft" },
     { "id": "soundcraft", "title": "SoundCraft" },
     { "id": "deckcraft", "title": "DeckCraft" },
