@@ -1,23 +1,23 @@
-import { audioStart, browseForget, browsePickFiles, browseRead, browseReconnect, cacheRead, cacheWrite, frameWorkerPost, frameWorkerStart, setJobWorkerGpu, showDeviceLost, storeDelete, storeOpen, storePut, workerRun } from './snippets/effectcraft-web-da977ca4dca8eadf/js/host.js';
-import * as import1 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import2 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import3 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import4 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import5 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import6 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import7 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import8 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import9 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import10 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import11 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import12 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import13 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import14 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import15 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import16 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import17 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import18 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
-import * as import19 from "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js"
+import { audioStart, browseForget, browsePickFiles, browseRead, browseReconnect, cacheRead, cacheWrite, frameWorkerPost, frameWorkerStart, setJobWorkerGpu, showDeviceLost, storeDelete, storeOpen, storePut, workerRun } from './snippets/effectcraft-web-6247e0b7c298e283/js/host.js';
+import * as import1 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import2 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import3 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import4 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import5 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import6 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import7 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import8 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import9 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import10 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import11 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import12 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import13 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import14 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import15 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import16 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import17 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import18 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
+import * as import19 from "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js"
 
 
 /**
@@ -334,7 +334,7 @@ function __wbg_get_imports() {
         __wbg_attachShader_9567ae57af6746d5: function(arg0, arg1, arg2) {
             arg0.attachShader(arg1, arg2);
         },
-        __wbg_audioStart_200cf57cbbce0338: function(arg0, arg1) {
+        __wbg_audioStart_3b225a77bb26245c: function(arg0, arg1) {
             const ret = audioStart(getStringFromWasm0(arg0, arg1));
             return ret;
         },
@@ -439,19 +439,19 @@ function __wbg_get_imports() {
             const ret = arg0.bottom;
             return ret;
         },
-        __wbg_browseForget_f99713d3c921d814: function(arg0, arg1) {
+        __wbg_browseForget_dc23c41ee02bb416: function(arg0, arg1) {
             const ret = browseForget(getStringFromWasm0(arg0, arg1));
             return ret;
         },
-        __wbg_browsePickFiles_7dd9f2a2613771ff: function(arg0) {
+        __wbg_browsePickFiles_ed2dd2e5eaae5e93: function(arg0) {
             const ret = browsePickFiles(arg0 !== 0);
             return ret;
         },
-        __wbg_browseRead_71c9e519084a0c4c: function(arg0, arg1) {
+        __wbg_browseRead_fc50f00c4a01c4b8: function(arg0, arg1) {
             const ret = browseRead(getStringFromWasm0(arg0, arg1));
             return ret;
         },
-        __wbg_browseReconnect_e99d8858d14db000: function(arg0, arg1) {
+        __wbg_browseReconnect_3473c67634f1cfe1: function(arg0, arg1) {
             const ret = browseReconnect(getStringFromWasm0(arg0, arg1));
             return ret;
         },
@@ -481,11 +481,11 @@ function __wbg_get_imports() {
             const ret = arg0.button;
             return ret;
         },
-        __wbg_cacheRead_0358d753c8048734: function(arg0, arg1) {
+        __wbg_cacheRead_212904a1f781d503: function(arg0, arg1) {
             const ret = cacheRead(getStringFromWasm0(arg0, arg1));
             return ret;
         },
-        __wbg_cacheWrite_be24a1423ac1bf39: function(arg0, arg1, arg2) {
+        __wbg_cacheWrite_694ebdde4e2f29a6: function(arg0, arg1, arg2) {
             const ret = cacheWrite(getStringFromWasm0(arg0, arg1), arg2);
             return ret;
         },
@@ -1022,10 +1022,10 @@ function __wbg_get_imports() {
             const ret = arg0.force;
             return ret;
         },
-        __wbg_frameWorkerPost_4610398d79e3d2ab: function(arg0, arg1, arg2) {
+        __wbg_frameWorkerPost_52aa597b09da49ed: function(arg0, arg1, arg2) {
             frameWorkerPost(arg0 >>> 0, arg1, arg2);
         },
-        __wbg_frameWorkerStart_f93bf5186e8f490a: function(arg0, arg1, arg2, arg3) {
+        __wbg_frameWorkerStart_c1b4ca137e2d4996: function(arg0, arg1, arg2, arg3) {
             const ret = frameWorkerStart(getStringFromWasm0(arg0, arg1), arg2, arg3 !== 0);
             return ret;
         },
@@ -2107,7 +2107,7 @@ function __wbg_get_imports() {
         __wbg_setItem_c5fb0966b484ecd3: function() { return handleError(function (arg0, arg1, arg2, arg3, arg4) {
             arg0.setItem(getStringFromWasm0(arg1, arg2), getStringFromWasm0(arg3, arg4));
         }, arguments); },
-        __wbg_setJobWorkerGpu_b431d136f11e3eed: function(arg0) {
+        __wbg_setJobWorkerGpu_c56f7f6feb06cf9b: function(arg0) {
             setJobWorkerGpu(arg0 !== 0);
         },
         __wbg_setPipeline_5146f7b8d2b4af5c: function(arg0, arg1) {
@@ -2747,7 +2747,7 @@ function __wbg_get_imports() {
             const ret = arg0.shiftKey;
             return ret;
         },
-        __wbg_showDeviceLost_042451bc37a2f9e6: function(arg0, arg1, arg2) {
+        __wbg_showDeviceLost_991edfbe037412ca: function(arg0, arg1, arg2) {
             showDeviceLost(getStringFromWasm0(arg0, arg1), arg2 !== 0);
         },
         __wbg_size_00652f74c831ee7c: function(arg0) {
@@ -2808,15 +2808,15 @@ function __wbg_get_imports() {
         __wbg_stopPropagation_effafbc3bc773f1c: function(arg0) {
             arg0.stopPropagation();
         },
-        __wbg_storeDelete_3ac3dfb1ea6bd537: function(arg0, arg1) {
+        __wbg_storeDelete_fe186721ee1a3a24: function(arg0, arg1) {
             const ret = storeDelete(getStringFromWasm0(arg0, arg1));
             return ret;
         },
-        __wbg_storeOpen_a9e8c40369ccb7d4: function(arg0, arg1) {
+        __wbg_storeOpen_368678d93357eb12: function(arg0, arg1) {
             const ret = storeOpen(getStringFromWasm0(arg0, arg1));
             return ret;
         },
-        __wbg_storePut_f5c7618d0827f08e: function(arg0, arg1, arg2, arg3) {
+        __wbg_storePut_d4ef03fba5c460fd: function(arg0, arg1, arg2, arg3) {
             const ret = storePut(getStringFromWasm0(arg0, arg1), arg2, arg3);
             return ret;
         },
@@ -3109,7 +3109,7 @@ function __wbg_get_imports() {
             const ret = arg0.width;
             return ret;
         },
-        __wbg_workerRun_4d34ba5838f1013f: function(arg0, arg1, arg2, arg3, arg4, arg5, arg6) {
+        __wbg_workerRun_ebe65ce32f379cc7: function(arg0, arg1, arg2, arg3, arg4, arg5, arg6) {
             workerRun(arg0, getStringFromWasm0(arg1, arg2), arg3, getStringFromWasm0(arg4, arg5), arg6);
         },
         __wbg_writeBuffer_f4bb3f54adfe1330: function() { return handleError(function (arg0, arg1, arg2, arg3, arg4, arg5, arg6) {
@@ -3127,7 +3127,7 @@ function __wbg_get_imports() {
             return ret;
         },
         __wbindgen_generic_0000000000000001: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 13191, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 13192, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, wasm_bindgen_40e4bd5bf369116___convert__closures_____invoke___wasm_bindgen_40e4bd5bf369116___JsValue__core_37ee0ce0c4cd57d5___result__Result_____wasm_bindgen_40e4bd5bf369116___JsError___true_);
             return ret;
         },
@@ -3244,25 +3244,25 @@ function __wbg_get_imports() {
     return {
         __proto__: null,
         "./effectcraft_web_bg.js": import0,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import1,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import2,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import3,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import4,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import5,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import6,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import7,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import8,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import9,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import10,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import11,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import12,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import13,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import14,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import15,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import16,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import17,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import18,
-        "./snippets/effectcraft-web-da977ca4dca8eadf/js/host.js": import19,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import1,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import2,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import3,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import4,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import5,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import6,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import7,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import8,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import9,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import10,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import11,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import12,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import13,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import14,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import15,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import16,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import17,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import18,
+        "./snippets/effectcraft-web-6247e0b7c298e283/js/host.js": import19,
     };
 }
 

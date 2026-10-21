@@ -11,11 +11,11 @@
 <h1 align="center">DesignCraft</h1>
 
 <p align="center">
-  <b>Page layout and publishing; an open-source, clean-room reimplementation of Adobe InDesign, rebuilt in pure Rust.</b>
+  <b>Page layout and publishing; an open-source, modern desktop publishing and page layout studio, built in pure Rust.</b>
 </p>
 
 <p align="center">
-  A fast, open-source, clean-room take on the Adobe InDesign workflow. It runs natively on macOS,
+  A fast, open-source desktop publishing and page layout workflow. It runs natively on macOS,
   Windows and Linux, and in the browser via WebAssembly.<br>
   <i>By the ArtCraft team.</i>
 </p>
@@ -78,9 +78,9 @@ by its own renderer. Try it yourself with `File → New → Sample Document`, or
 
 ## Why DesignCraft
 
-- **Familiar.** InDesign's layout, tools, menus, panels and shortcuts: spreads and parent pages,
-  frames and threaded stories, the Control panel, paragraph and character styles, swatches, text
-  wrap and more. If you know InDesign, you already know how to use it.
+- **Familiar.** A familiar layout, tools, menus, panels and shortcuts: spreads and parent pages,
+  master pages, text frames, threaded text, paragraph and character styles, tables, text wrap and
+  more. Everything is right where you expect it.
 - **Beautiful type.** A Knuth–Plass paragraph composer (plus single-line), dictionary hyphenation
   (the public-domain Moby word list plus our own trained patterns), word, letter and glyph-scaling
   justification, keeps, optical margin alignment, columns, baseline grid, tabs, rules and shading.
@@ -88,7 +88,7 @@ by its own renderer. Try it yourself with `File → New → Sample Document`, or
 - **Fast.** Multithreaded SIMD rendering (vello_cpu), copy-on-write documents with O(1) undo
   snapshots, and cached composition.
 - **Open.** A documented native format, IDML import and export, INDD import (through
-  [indd-utils](https://github.com/storytold/indd-utils)), editable PowerPoint export, and PNG, PDF
+  [indd-utils](https://github.com/storytold/indd-utils)), editable .pptx export, and PNG, PDF
   (PDF/X-4, PDF/A-2b) and EPUB export.
 
   No subscription, no licence server, no telemetry.
@@ -247,10 +247,10 @@ egui frontend is a separate crate, so the UI can be swapped without touching the
 | L3 | `render` (vello_cpu) |
 | L4 | `tools` (pointer events → commands + overlays) |
 | L5 | `engine` (session, history, command registry) |
-| L6 | `ui-egui` (InDesign-style UI, control channel) |
+| L6 | `ui-egui` (publishing UI, control channel) |
 | L7 | `apps/designcraft`, `apps/designcraft-cli`, `apps/designcraft-web` |
 
-- **Status and milestones:** [ROADMAP.md](ROADMAP.md) (stage: pre-alpha); how close to InDesign: [`docs/target-app-parity.md`](docs/target-app-parity.md); known gaps: [`docs/gaps.md`](docs/gaps.md)
+- **Status and milestones:** [ROADMAP.md](ROADMAP.md) (stage: pre-alpha); feature assessment: [`docs/target-app-parity.md`](docs/target-app-parity.md); known gaps: [`docs/gaps.md`](docs/gaps.md)
 - **Contributor and agent rules** (clean-room, asset policy, quality gates): [`AGENTS.md`](AGENTS.md)
 - **Bundled assets:** every one is listed with its licence in [`ASSETS.md`](ASSETS.md)
 - **App icon and colour:** a calico cat in a polka-dot scarf on DesignCraft green `#7bb51c`; see [`assets/app-icon/`](assets/app-icon/README.md)
@@ -372,8 +372,6 @@ The ArtCraft name, wordmark and logos in [`docs/brand/`](docs/brand/) are tradem
 ArtCraft Team and are not covered by this license. They may be used only unmodified, and only as
 part of this repository and DesignCraft, under [`docs/brand/LICENSE-brand.txt`](docs/brand/LICENSE-brand.txt).
 Forks and modified versions must remove them.
-
-<sub>Adobe, Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat, After Effects and InDesign are trademarks or registered trademarks of Adobe Inc. in the United States and/or other countries. DesignCraft is an independent, open-source project and is not affiliated with, sponsored by or endorsed by Adobe Inc.; these names are used only to describe the workflows it is compatible with.</sub>
 
 <br>
 

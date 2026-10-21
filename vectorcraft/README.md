@@ -11,11 +11,11 @@
 <h1 align="center">VectorCraft</h1>
 
 <p align="center">
-  <b>Vector illustration; an open-source, clean-room reimplementation of Adobe Illustrator, rebuilt in pure Rust.</b>
+  <b>Vector illustration; an open-source, modern vector art application, built in pure Rust.</b>
 </p>
 
 <p align="center">
-  A fast, open-source, clean-room take on the Adobe Illustrator workflow. It runs natively on
+  A fast, open-source vector illustration workflow. It runs natively on
   macOS, Windows, Linux and FreeBSD, and in the browser via WebAssembly. Built by the ArtCraft team.
 </p>
 
@@ -147,7 +147,7 @@ exposes to agents, and exported by VectorCraft's own renderer. The source files 
 
 ## Why VectorCraft
 
-- **Familiar.** Illustrator's layout, tools, menus, panels and shortcuts: the Pen, Direct Selection,
+- **Familiar.** A familiar layout, tools, menus, panels and shortcuts: the Pen, Direct Selection,
   Pathfinder, Smart Guides, Appearance, Swatches, Layers and more. You already know how to use it.
 - **Fast.** Multithreaded SIMD rendering off the UI thread. 20,000 shapes render in about 27 ms at
   full retina resolution while the interface stays at 120 fps.
@@ -163,6 +163,8 @@ exposes to agents, and exported by VectorCraft's own renderer. The source files 
 
 ## Quick start
 
+For posters and sewing patterns, see [Print a large poster across multiple pages](docs/print-tiling.md).
+
 ```sh
 git clone https://github.com/storytold/vectorcraft
 cd vectorcraft
@@ -177,6 +179,8 @@ cargo xtask bundle                                        # dist/VectorCraft.app
 cd apps/vectorcraft-web && trunk build --release            # web build → dist/web
 cargo xtask ci                                            # fmt, clippy, tests, layering, wasm, vendor names
 ```
+
+For text and custom letter shapes, see [Typography and Custom Lettering](docs/typography-lettering.md).
 
 Japanese fonts come from [storytold/craft-fonts](https://github.com/storytold/craft-fonts), an optional
 build input (releases always use it): `CRAFT_FONTS_DIR="$PWD/../craft-fonts" cargo run --release -p vectorcraft` (an absolute path).
@@ -224,9 +228,8 @@ VectorCraft is under active development. [**ROADMAP.md**](ROADMAP.md) has the st
 and what's next; [`docs/target-app-parity.md`](docs/target-app-parity.md) the full parity assessment and
 [`docs/gaps.md`](docs/gaps.md) the ranked list of what's missing.
 
-**Where we are (2026-10-10): alpha.** About 88% of Illustrator 2026's menu items, tools, effects and formats exist
-(92.5% of menu items do something), feature depth is ~75%, and we estimate ~65% "ready for real work" for a mainstream illustrator (~62% against
-all of Illustrator): everyday
+**Where we are (2026-10-10): alpha.** About 88% of core menu items, tools, effects and formats exist
+(92.5% of menu items do something), feature depth is ~75%, and we estimate ~65% ready for real work for a mainstream illustrator (~62% across all tracked features): everyday
 vector illustration is close to usable: drawing and path tools,
 Pathfinder and Shape Builder, paint, gradients, appearance and transparency, type with styles, threading and Hebrew/Arabic bidirectional layout, and
 files (SVG, PDF and PDF-compatible `.ai` with PDF/X, legacy version 7 `.ai` keeping layers, groups and type, EPS, DXF, EMF/WMF, raster formats, PSD out and PSD/PSB in as their merged image, Print, Package).
@@ -238,22 +241,22 @@ doesn't write Affinity files. Current `.af` validation includes 33 pinned files,
 and every-board SVG/PDF/PSD export, with fixes for Affinity 3 artboards, source-backed JPEGs and text runs.
 [Scope and limits](crates/affinity/README.md); [source audit and remaining gaps](docs/affinity-validation.md).
 The interface
-speaks English, German, Japanese, Korean, Vietnamese, Traditional and Simplified Chinese, Spanish, French, Hungarian, Italian, Polish, Brazilian Portuguese, Russian, Swedish, Ukrainian, Finnish, Bulgarian, Greek and Czech;
+speaks English, German, Japanese, Korean, Vietnamese, Traditional and Simplified Chinese, Spanish, French, Hungarian, Italian, Polish, Brazilian Portuguese, Russian, Swedish, Ukrainian, Finnish, Bulgarian, Greek, Czech and Georgian;
 [localization-parity.md](docs/localization-parity.md) has the details.
-The scores are self-assessed from our code against Illustrator's public documentation;
+The scores are self-assessed from our code against public documentation;
 [target-app-parity.md](docs/target-app-parity.md#how-this-was-measured-2026-10-10) explains how far to trust them.
 
 **What's missing:**
-- reliable exchange of Illustrator's own `.ai` files (layer structure in real files; Illustrator's editing data isn't written);
+- reliable exchange of .ai files (layer structure in real files; proprietary editing data isn't written);
 - an interaction-fidelity pass covering every tool's modifiers and small behaviours;
 - 3D and Materials beyond the initial live Revolve (Extrude & Bevel, Inflate, Rotate, materials);
-- about half of the Photoshop-style raster effects (24 of 57 still missing; Cutout, Film Grain, Neon Glow and Poster Edges are available under Artistic, Halftone Pattern under Sketch) and the Effect Gallery;
+- most of the raster effects (11 of 57 still missing; Cutout, Film Grain, Neon Glow, Plastic Wrap, Poster Edges, Smudge Stick, Sponge and Watercolor are available under Artistic, Bas Relief, Chalk & Charcoal, Charcoal, Chrome, Graphic Pen, Halftone Pattern, Note Paper, Photocopy, Plaster, Reticulation and Stamp under Sketch) and the Effect Gallery;
 - CJK composition for vertical type (vertical type itself has initial support, with a Japanese interface);
 - scripting, and the rest of Variables (image and graph kinds, dataset import);
 - generative AI features.
 
 **Where we're going:** next is the interaction-fidelity pass, `.ai` files from real users and start-up stability,
-alongside the raster-effects package; then type, the Illustrator 2026 additions and 3D. The ranked list is in
+alongside the raster-effects package; then type, recent additions and 3D. The ranked list is in
 [`docs/gaps.md`](docs/gaps.md).
 
 **Workspace:** `crates/{geom, color, doc, pathops, text, effects, three-d, trace, brush, render, svg, pdf, eps, cad, metafile, format, tools, engine, ui-egui, mcp, testkit}`
@@ -371,8 +374,6 @@ The ArtCraft name, wordmark and logos in [`docs/brand/`](docs/brand/) are tradem
 ArtCraft Team and are not covered by this license. They may be used only unmodified, and only as
 part of this repository and VectorCraft, under [`docs/brand/LICENSE-brand.txt`](docs/brand/LICENSE-brand.txt).
 Forks and modified versions must remove them.
-
-<sub>Adobe, Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat, After Effects and InDesign are trademarks or registered trademarks of Adobe Inc. in the United States and/or other countries. VectorCraft is an independent, open-source project and is not affiliated with, sponsored by or endorsed by Adobe Inc.; these names are used only to describe the workflows it is compatible with.</sub>
 
 <p align="center">
   <a href="https://getartcraft.com/"><img alt="ArtCraft" src="docs/brand/artcraft-mark.svg" width="28"></a><br>
