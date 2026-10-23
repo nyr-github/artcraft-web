@@ -7,8 +7,8 @@
   <link rel="icon" href="./ai.storyteller.soundcraft-4f86cc0f1d19c49f.png" integrity="sha384-gGGdqNRRqqtc1O6hUsGr2t6crDCmPT5aQ88HrS63AGKTx8mtjcAwCaMFzW6yzgT0"/>
   
 <script type="module">
-import init, * as bindings from './soundcraft-web-447143a00ebf14bd.js';
-const wasm = await init({ module_or_path: './soundcraft-web-447143a00ebf14bd_bg.wasm' });
+import init, * as bindings from './soundcraft-web-e234dae1bf795d0a.js';
+const wasm = await init({ module_or_path: './soundcraft-web-e234dae1bf795d0a_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -23,7 +23,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
     #soundcraft_loading { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
       color: #b8b8b8; font: 14px system-ui, sans-serif; pointer-events: none; }
   </style>
-<link rel="modulepreload" href="./soundcraft-web-447143a00ebf14bd.js" crossorigin="anonymous" integrity="sha384-e7Pkn4xg7ZiT9LU30RT4jPQNsNKTkVe3U7lIPZ0AAt6AKjezvMEOrnOVCjJgOA8Z"><link rel="preload" href="./soundcraft-web-447143a00ebf14bd_bg.wasm" crossorigin="anonymous" integrity="sha384-vsF3NgzWgyvdulIcQ3PUyiGt9wFhpLCwpa4j+Z67ztmYafJc2DzHThBVH3o74e4i" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="./soundcraft-web-e234dae1bf795d0a.js" crossorigin="anonymous" integrity="sha384-v39sxZKIA4irh68aQMhQr2hHI/KM6n93+0i4nT+e0N/41IVkM5eQMmzMleafVpmy"><link rel="preload" href="./soundcraft-web-e234dae1bf795d0a_bg.wasm" crossorigin="anonymous" integrity="sha384-w8CgqCBdOEEqsLMEz1wxLYtuqjb7670T2jLmwyJMjKyFeCcrIRMxpkZ/qbFp6dXg" as="fetch" type="application/wasm"></head>
 <body>
   <canvas id="soundcraft_canvas"></canvas>
   <script>

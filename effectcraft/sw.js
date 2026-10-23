@@ -4,8 +4,8 @@
 // cache named after the version, served cache-first (responses keep the server's headers, so
 // the page stays cross-origin isolated: COOP/COEP), and old versions are dropped once the new
 // one activates. Anything else same-origin is fetched from the network and cached for next time.
-const VERSION = "e89669467dbc8acd";
-const FILES = ["./", "./audio-worklet.js", "./effectcraft_web.js", "./effectcraft_web_bg.wasm", "./favicon.svg", "./icon-256.png", "./icon-512.png", "./index.html", "./manifest.webmanifest", "./snippets/effectcraft-web-80d08d6f24d0537c/js/host.js", "./worker.js"];
+const VERSION = "c0c40fa8c934b8e0";
+const FILES = ["./", "./audio-worklet.js", "./effectcraft_web.js", "./effectcraft_web_bg.wasm", "./favicon.svg", "./icon-256.png", "./icon-512.png", "./index.html", "./manifest.webmanifest", "./snippets/effectcraft-web-5b4a90707761de19/js/host.js", "./worker.js"];
 const CACHE = `effectcraft-${VERSION}`;
 
 self.addEventListener("install", (event) => {
@@ -32,13 +32,15 @@ self.addEventListener("fetch", (event) => {
   if (req.method !== "GET" || url.origin !== self.location.origin) return;
   event.respondWith(
     (async () => {
-      const cache = await caches.open(CACHE);
-      // The page itself regardless of its query (?empty, ?demo…).
-      const key = req.mode === "navigate" ? new URL("./", self.registration.scope).href : req;
-      const hit = await cache.match(key, { ignoreSearch: req.mode === "navigate" });
-      if (hit) return hit;
+      const cache = await caches.open(CACHE).catch(() => null);
+      if (cache) {
+        // The page itself regardless of its query (?empty, ?demo…).
+        const key = req.mode === "navigate" ? new URL("./", self.registration.scope).href : req;
+        const hit = await cache.match(key, { ignoreSearch: req.mode === "navigate" }).catch(() => null);
+        if (hit) return hit;
+      }
       const res = await fetch(req);
-      if (res.ok && res.type === "basic") cache.put(req, res.clone());
+      if (cache && res.ok && res.type === "basic") void cache.put(req, res.clone()).catch(() => {});
       return res;
     })(),
   );
