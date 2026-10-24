@@ -1,13 +1,13 @@
 {
   "photocraft": {
-    "version": "0.14.0",
-    "tag": "v0.14.0",
-    "asset": "photocraft-web-0.14.0.zip",
-    "url": "https://github.com/storytold/photocraft/releases/download/v0.14.0/photocraft-web-0.14.0.zip",
-    "size": 12011648,
-    "release_html": "https://github.com/storytold/photocraft/releases/tag/v0.14.0",
-    "published_at": "2026-10-23T00:43:42Z",
-    "updated_at": "2026-10-23T08:16:24.618Z"
+    "version": "0.15.1",
+    "tag": "v0.15.1",
+    "asset": "photocraft-web-0.15.1.zip",
+    "url": "https://github.com/storytold/photocraft/releases/download/v0.15.1/photocraft-web-0.15.1.zip",
+    "size": 12058467,
+    "release_html": "https://github.com/storytold/photocraft/releases/tag/v0.15.1",
+    "published_at": "2026-10-23T22:44:33Z",
+    "updated_at": "2026-10-24T07:54:16.930Z"
   },
   "filmcraft": {
     "version": "0.12.0",

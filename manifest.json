@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-23T08:16:24.618Z",
+  "generated_at": "2026-10-24T07:54:16.930Z",
   "org": "storytold",
   "apps": [
     {
       "id": "photocraft",
       "title": "PhotoCraft",
-      "version": "0.14.0",
-      "tag": "v0.14.0",
+      "version": "0.15.1",
+      "tag": "v0.15.1",
       "path": "./photocraft/",
-      "updated_at": "2026-10-23T08:16:24.618Z",
-      "published_at": "2026-10-23T00:43:42Z",
-      "release": "https://github.com/storytold/photocraft/releases/tag/v0.14.0"
+      "updated_at": "2026-10-24T07:54:16.930Z",
+      "published_at": "2026-10-23T22:44:33Z",
+      "release": "https://github.com/storytold/photocraft/releases/tag/v0.15.1"
     },
     {
       "id": "filmcraft",
