@@ -40,14 +40,14 @@
     "updated_at": "2026-11-03T10:28:53.648Z"
   },
   "pdfcraft": {
-    "version": "0.18.0",
-    "tag": "v0.18.0",
-    "asset": "pdfcraft-web-0.18.0.zip",
-    "url": "https://github.com/storytold/pdfcraft/releases/download/v0.18.0/pdfcraft-web-0.18.0.zip",
-    "size": 17486432,
-    "release_html": "https://github.com/storytold/pdfcraft/releases/tag/v0.18.0",
-    "published_at": "2026-11-03T00:59:28Z",
-    "updated_at": "2026-11-03T10:28:53.648Z"
+    "version": "0.18.1",
+    "tag": "v0.18.1",
+    "asset": "pdfcraft-web-0.18.1.zip",
+    "url": "https://github.com/storytold/pdfcraft/releases/download/v0.18.1/pdfcraft-web-0.18.1.zip",
+    "size": 19594206,
+    "release_html": "https://github.com/storytold/pdfcraft/releases/tag/v0.18.1",
+    "published_at": "2026-11-04T03:51:06Z",
+    "updated_at": "2026-11-04T10:30:32.608Z"
   },
   "effectcraft": {
     "version": "0.21.0",
@@ -80,14 +80,14 @@
     "updated_at": "2026-11-03T10:28:53.648Z"
   },
   "wordcraft": {
-    "version": "0.15.0",
-    "tag": "v0.15.0",
-    "asset": "wordcraft-web-0.15.0.zip",
-    "url": "https://github.com/storytold/wordcraft/releases/download/v0.15.0/wordcraft-web-0.15.0.zip",
-    "size": 20205395,
-    "release_html": "https://github.com/storytold/wordcraft/releases/tag/v0.15.0",
-    "published_at": "2026-11-03T00:53:40Z",
-    "updated_at": "2026-11-03T10:28:53.648Z"
+    "version": "0.15.1",
+    "tag": "v0.15.1",
+    "asset": "wordcraft-web-0.15.1.zip",
+    "url": "https://github.com/storytold/wordcraft/releases/download/v0.15.1/wordcraft-web-0.15.1.zip",
+    "size": 21264932,
+    "release_html": "https://github.com/storytold/wordcraft/releases/tag/v0.15.1",
+    "published_at": "2026-11-04T03:51:07Z",
+    "updated_at": "2026-11-04T10:30:32.608Z"
   },
   "soundcraft": {
     "version": "0.17.0",

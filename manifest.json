@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:28:53.648Z",
+  "generated_at": "2026-11-04T10:30:32.608Z",
   "org": "storytold",
   "apps": [
     {
@@ -45,12 +45,12 @@
     {
       "id": "pdfcraft",
       "title": "PdfCraft",
-      "version": "0.18.0",
-      "tag": "v0.18.0",
+      "version": "0.18.1",
+      "tag": "v0.18.1",
       "path": "./pdfcraft/",
-      "updated_at": "2026-11-03T10:28:53.648Z",
-      "published_at": "2026-11-03T00:59:28Z",
-      "release": "https://github.com/storytold/pdfcraft/releases/tag/v0.18.0"
+      "updated_at": "2026-11-04T10:30:32.608Z",
+      "published_at": "2026-11-04T03:51:06Z",
+      "release": "https://github.com/storytold/pdfcraft/releases/tag/v0.18.1"
     },
     {
       "id": "effectcraft",
@@ -85,12 +85,12 @@
     {
       "id": "wordcraft",
       "title": "WordCraft",
-      "version": "0.15.0",
-      "tag": "v0.15.0",
+      "version": "0.15.1",
+      "tag": "v0.15.1",
       "path": "./wordcraft/",
-      "updated_at": "2026-11-03T10:28:53.648Z",
-      "published_at": "2026-11-03T00:53:40Z",
-      "release": "https://github.com/storytold/wordcraft/releases/tag/v0.15.0"
+      "updated_at": "2026-11-04T10:30:32.608Z",
+      "published_at": "2026-11-04T03:51:07Z",
+      "release": "https://github.com/storytold/wordcraft/releases/tag/v0.15.1"
     },
     {
       "id": "soundcraft",
