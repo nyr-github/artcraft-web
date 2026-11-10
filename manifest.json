@@ -1,136 +1,136 @@
 {
-  "generated_at": "2026-11-09T10:56:15.407Z",
+  "generated_at": "2026-11-10T10:47:48.425Z",
   "org": "storytold",
   "apps": [
     {
       "id": "photocraft",
       "title": "PhotoCraft",
-      "version": "0.21.0",
-      "tag": "v0.21.0",
+      "version": "0.22.0",
+      "tag": "v0.22.0",
       "path": "./photocraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:22:03Z",
-      "release": "https://github.com/storytold/photocraft/releases/tag/v0.21.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T12:19:04Z",
+      "release": "https://github.com/storytold/photocraft/releases/tag/v0.22.0"
     },
     {
       "id": "filmcraft",
       "title": "FilmCraft",
-      "version": "0.18.0",
-      "tag": "v0.18.0",
+      "version": "0.19.0",
+      "tag": "v0.19.0",
       "path": "./filmcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:21:40Z",
-      "release": "https://github.com/storytold/filmcraft/releases/tag/v0.18.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T11:54:14Z",
+      "release": "https://github.com/storytold/filmcraft/releases/tag/v0.19.0"
     },
     {
       "id": "vectorcraft",
       "title": "VectorCraft",
-      "version": "0.22.0",
-      "tag": "v0.22.0",
+      "version": "0.23.0",
+      "tag": "v0.23.0",
       "path": "./vectorcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:22:17Z",
-      "release": "https://github.com/storytold/vectorcraft/releases/tag/v0.22.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T12:10:57Z",
+      "release": "https://github.com/storytold/vectorcraft/releases/tag/v0.23.0"
     },
     {
       "id": "lightcraft",
       "title": "LightCraft",
-      "version": "0.19.0",
-      "tag": "v0.19.0",
+      "version": "0.20.0",
+      "tag": "v0.20.0",
       "path": "./lightcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:21:50Z",
-      "release": "https://github.com/storytold/lightcraft/releases/tag/v0.19.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T11:57:03Z",
+      "release": "https://github.com/storytold/lightcraft/releases/tag/v0.20.0"
     },
     {
       "id": "pdfcraft",
       "title": "PdfCraft",
-      "version": "0.19.0",
-      "tag": "v0.19.0",
+      "version": "0.20.0",
+      "tag": "v0.20.0",
       "path": "./pdfcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:21:58Z",
-      "release": "https://github.com/storytold/pdfcraft/releases/tag/v0.19.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T12:10:51Z",
+      "release": "https://github.com/storytold/pdfcraft/releases/tag/v0.20.0"
     },
     {
       "id": "effectcraft",
       "title": "EffectCraft",
-      "version": "0.22.0",
-      "tag": "v0.22.0",
+      "version": "0.23.1",
+      "tag": "v0.23.1",
       "path": "./effectcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:26:02Z",
-      "release": "https://github.com/storytold/effectcraft/releases/tag/v0.22.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-10T00:49:57Z",
+      "release": "https://github.com/storytold/effectcraft/releases/tag/v0.23.1"
     },
     {
       "id": "designcraft",
       "title": "DesignCraft",
-      "version": "0.18.0",
-      "tag": "v0.18.0",
+      "version": "0.19.0",
+      "tag": "v0.19.0",
       "path": "./designcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:21:31Z",
-      "release": "https://github.com/storytold/designcraft/releases/tag/v0.18.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T12:02:13Z",
+      "release": "https://github.com/storytold/designcraft/releases/tag/v0.19.0"
     },
     {
       "id": "figcraft",
       "title": "FigCraft",
-      "version": "0.16.0",
-      "tag": "v0.16.0",
+      "version": "0.17.0",
+      "tag": "v0.17.0",
       "path": "./figcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:21:35Z",
-      "release": "https://github.com/storytold/figcraft/releases/tag/v0.16.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T12:21:12Z",
+      "release": "https://github.com/storytold/figcraft/releases/tag/v0.17.0"
     },
     {
       "id": "wordcraft",
       "title": "WordCraft",
-      "version": "0.16.0",
-      "tag": "v0.16.0",
+      "version": "0.17.0",
+      "tag": "v0.17.0",
       "path": "./wordcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:22:22Z",
-      "release": "https://github.com/storytold/wordcraft/releases/tag/v0.16.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T12:07:17Z",
+      "release": "https://github.com/storytold/wordcraft/releases/tag/v0.17.0"
     },
     {
       "id": "soundcraft",
       "title": "SoundCraft",
-      "version": "0.18.0",
-      "tag": "v0.18.0",
+      "version": "0.19.0",
+      "tag": "v0.19.0",
       "path": "./soundcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:22:08Z",
-      "release": "https://github.com/storytold/soundcraft/releases/tag/v0.18.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T11:54:20Z",
+      "release": "https://github.com/storytold/soundcraft/releases/tag/v0.19.0"
     },
     {
       "id": "deckcraft",
       "title": "DeckCraft",
-      "version": "0.16.0",
-      "tag": "v0.16.0",
+      "version": "0.17.0",
+      "tag": "v0.17.0",
       "path": "./deckcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:21:27Z",
-      "release": "https://github.com/storytold/deckcraft/releases/tag/v0.16.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T11:54:57Z",
+      "release": "https://github.com/storytold/deckcraft/releases/tag/v0.17.0"
     },
     {
       "id": "cadcraft",
       "title": "CadCraft",
-      "version": "0.18.0",
-      "tag": "v0.18.0",
+      "version": "0.19.0",
+      "tag": "v0.19.0",
       "path": "./cadcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:21:13Z",
-      "release": "https://github.com/storytold/cadcraft/releases/tag/v0.18.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T11:58:58Z",
+      "release": "https://github.com/storytold/cadcraft/releases/tag/v0.19.0"
     },
     {
       "id": "gridcraft",
       "title": "GridCraft",
-      "version": "0.17.0",
-      "tag": "v0.17.0",
+      "version": "0.18.0",
+      "tag": "v0.18.0",
       "path": "./gridcraft/",
-      "updated_at": "2026-11-07T09:38:51.206Z",
-      "published_at": "2026-11-06T20:21:45Z",
-      "release": "https://github.com/storytold/gridcraft/releases/tag/v0.17.0"
+      "updated_at": "2026-11-10T10:47:48.425Z",
+      "published_at": "2026-11-09T11:51:15Z",
+      "release": "https://github.com/storytold/gridcraft/releases/tag/v0.18.0"
     }
   ]
 }
