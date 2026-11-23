@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T10:45:15.553Z",
+  "generated_at": "2026-11-23T11:50:39.438Z",
   "org": "storytold",
   "apps": [
     {
@@ -45,12 +45,12 @@
     {
       "id": "pdfcraft",
       "title": "PdfCraft",
-      "version": "0.21.1",
-      "tag": "v0.21.1",
+      "version": "0.22.0",
+      "tag": "v0.22.0",
       "path": "./pdfcraft/",
-      "updated_at": "2026-11-12T10:40:30.358Z",
-      "published_at": "2026-11-12T02:18:37Z",
-      "release": "https://github.com/storytold/pdfcraft/releases/tag/v0.21.1"
+      "updated_at": "2026-11-23T11:50:39.438Z",
+      "published_at": "2026-11-23T03:45:29Z",
+      "release": "https://github.com/storytold/pdfcraft/releases/tag/v0.22.0"
     },
     {
       "id": "effectcraft",

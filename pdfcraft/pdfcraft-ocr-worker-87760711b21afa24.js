@@ -89,7 +89,7 @@ function __wbg_get_imports() {
         },
         __wbindgen_generic_0000000000000001: function(arg0, arg1) {
             // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("MessageEvent")], shim_idx: 212, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
-            const ret = makeMutClosure(arg0, arg1, wasm_bindgen_b5cfb1d595d557e7___convert__closures_____invoke___web_sys_1f54110906edb4b4___features__gen_MessageEvent__MessageEvent______true_);
+            const ret = makeMutClosure(arg0, arg1, wasm_bindgen_3e33ef80f29bd20b___convert__closures_____invoke___web_sys_97564617298ef6b4___features__gen_MessageEvent__MessageEvent______true_);
             return ret;
         },
         __wbindgen_generic_0000000000000002: function(arg0, arg1) {
@@ -113,8 +113,8 @@ function __wbg_get_imports() {
     };
 }
 
-function wasm_bindgen_b5cfb1d595d557e7___convert__closures_____invoke___web_sys_1f54110906edb4b4___features__gen_MessageEvent__MessageEvent______true_(arg0, arg1, arg2) {
-    wasm.wasm_bindgen_b5cfb1d595d557e7___convert__closures_____invoke___web_sys_1f54110906edb4b4___features__gen_MessageEvent__MessageEvent______true_(arg0, arg1, arg2);
+function wasm_bindgen_3e33ef80f29bd20b___convert__closures_____invoke___web_sys_97564617298ef6b4___features__gen_MessageEvent__MessageEvent______true_(arg0, arg1, arg2) {
+    wasm.wasm_bindgen_3e33ef80f29bd20b___convert__closures_____invoke___web_sys_97564617298ef6b4___features__gen_MessageEvent__MessageEvent______true_(arg0, arg1, arg2);
 }
 
 function addToExternrefTable0(obj) {
@@ -342,7 +342,7 @@ async function __wbg_init(module_or_path) {
     }
 
     if (module_or_path === undefined) {
-        module_or_path = new URL('pdfcraft-ocr-worker-b363fe94bbdd0923_bg.wasm', import.meta.url);
+        module_or_path = new URL('pdfcraft-ocr-worker-87760711b21afa24_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 

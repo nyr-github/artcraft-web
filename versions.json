@@ -40,14 +40,14 @@
     "updated_at": "2026-11-12T10:40:30.358Z"
   },
   "pdfcraft": {
-    "version": "0.21.1",
-    "tag": "v0.21.1",
-    "asset": "pdfcraft-web-0.21.1.zip",
-    "url": "https://github.com/storytold/pdfcraft/releases/download/v0.21.1/pdfcraft-web-0.21.1.zip",
-    "size": 34367297,
-    "release_html": "https://github.com/storytold/pdfcraft/releases/tag/v0.21.1",
-    "published_at": "2026-11-12T02:18:37Z",
-    "updated_at": "2026-11-12T10:40:30.358Z"
+    "version": "0.22.0",
+    "tag": "v0.22.0",
+    "asset": "pdfcraft-web-0.22.0.zip",
+    "url": "https://github.com/storytold/pdfcraft/releases/download/v0.22.0/pdfcraft-web-0.22.0.zip",
+    "size": 37379269,
+    "release_html": "https://github.com/storytold/pdfcraft/releases/tag/v0.22.0",
+    "published_at": "2026-11-23T03:45:29Z",
+    "updated_at": "2026-11-23T11:50:39.438Z"
   },
   "effectcraft": {
     "version": "0.24.1",
