@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T11:50:39.438Z",
+  "generated_at": "2026-11-24T13:18:59.656Z",
   "apps": [
     {
       "id": "photocraft",
@@ -39,15 +39,15 @@
     {
       "id": "effectcraft",
       "name": "EffectCraft",
-      "version": "0.24.1",
-      "date": "2026-11-12",
+      "version": "0.25.1",
+      "date": "2026-11-24",
       "url": "https://nyr-github.github.io/artcraft-web/effectcraft/"
     },
     {
       "id": "designcraft",
       "name": "DesignCraft",
-      "version": "0.20.1",
-      "date": "2026-11-12",
+      "version": "0.21.1",
+      "date": "2026-11-24",
       "url": "https://nyr-github.github.io/artcraft-web/designcraft/"
     },
     {
