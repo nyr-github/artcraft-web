@@ -80,14 +80,14 @@
     "updated_at": "2026-11-12T10:40:30.358Z"
   },
   "wordcraft": {
-    "version": "0.18.1",
-    "tag": "v0.18.1",
-    "asset": "wordcraft-web-0.18.1.zip",
-    "url": "https://github.com/storytold/wordcraft/releases/download/v0.18.1/wordcraft-web-0.18.1.zip",
-    "size": 22536015,
-    "release_html": "https://github.com/storytold/wordcraft/releases/tag/v0.18.1",
-    "published_at": "2026-11-12T00:04:47Z",
-    "updated_at": "2026-11-12T10:40:30.358Z"
+    "version": "0.19.1",
+    "tag": "v0.19.1",
+    "asset": "wordcraft-web-0.19.1.zip",
+    "url": "https://github.com/storytold/wordcraft/releases/download/v0.19.1/wordcraft-web-0.19.1.zip",
+    "size": 24860696,
+    "release_html": "https://github.com/storytold/wordcraft/releases/tag/v0.19.1",
+    "published_at": "2026-11-25T19:29:33Z",
+    "updated_at": "2026-11-26T11:55:34.032Z"
   },
   "soundcraft": {
     "version": "0.20.1",
@@ -100,14 +100,14 @@
     "updated_at": "2026-11-12T10:40:30.358Z"
   },
   "deckcraft": {
-    "version": "0.18.1",
-    "tag": "v0.18.1",
-    "asset": "deckcraft-web-0.18.1.zip",
-    "url": "https://github.com/storytold/deckcraft/releases/download/v0.18.1/deckcraft-web-0.18.1.zip",
-    "size": 11910503,
-    "release_html": "https://github.com/storytold/deckcraft/releases/tag/v0.18.1",
-    "published_at": "2026-11-12T00:07:42Z",
-    "updated_at": "2026-11-12T10:40:30.358Z"
+    "version": "0.19.1",
+    "tag": "v0.19.1",
+    "asset": "deckcraft-web-0.19.1.zip",
+    "url": "https://github.com/storytold/deckcraft/releases/download/v0.19.1/deckcraft-web-0.19.1.zip",
+    "size": 12463655,
+    "release_html": "https://github.com/storytold/deckcraft/releases/tag/v0.19.1",
+    "published_at": "2026-11-25T19:29:37Z",
+    "updated_at": "2026-11-26T11:55:34.032Z"
   },
   "cadcraft": {
     "version": "0.20.1",

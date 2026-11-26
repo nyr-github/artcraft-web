@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:09:49.848Z",
+  "generated_at": "2026-11-26T11:55:34.032Z",
   "org": "storytold",
   "apps": [
     {
@@ -85,12 +85,12 @@
     {
       "id": "wordcraft",
       "title": "WordCraft",
-      "version": "0.18.1",
-      "tag": "v0.18.1",
+      "version": "0.19.1",
+      "tag": "v0.19.1",
       "path": "./wordcraft/",
-      "updated_at": "2026-11-12T10:40:30.358Z",
-      "published_at": "2026-11-12T00:04:47Z",
-      "release": "https://github.com/storytold/wordcraft/releases/tag/v0.18.1"
+      "updated_at": "2026-11-26T11:55:34.032Z",
+      "published_at": "2026-11-25T19:29:33Z",
+      "release": "https://github.com/storytold/wordcraft/releases/tag/v0.19.1"
     },
     {
       "id": "soundcraft",
@@ -105,12 +105,12 @@
     {
       "id": "deckcraft",
       "title": "DeckCraft",
-      "version": "0.18.1",
-      "tag": "v0.18.1",
+      "version": "0.19.1",
+      "tag": "v0.19.1",
       "path": "./deckcraft/",
-      "updated_at": "2026-11-12T10:40:30.358Z",
-      "published_at": "2026-11-12T00:07:42Z",
-      "release": "https://github.com/storytold/deckcraft/releases/tag/v0.18.1"
+      "updated_at": "2026-11-26T11:55:34.032Z",
+      "published_at": "2026-11-25T19:29:37Z",
+      "release": "https://github.com/storytold/deckcraft/releases/tag/v0.19.1"
     },
     {
       "id": "cadcraft",
